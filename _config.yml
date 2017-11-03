@@ -14,8 +14,8 @@ cover: "Hblog/assets/images/blog_cover.jpg"
 
 name: 'Changhwan Sin'
 author: 'Changhwan Sin'
-author_image: "Hblog/assets/images/author.jpg"
-logo_image: "Hblog/assets/images/sheep_logo_black.jpg"
+author_image: "assets/images/author.jpg"
+logo_image: "assets/images/sheep_logo_black.jpg"
 
 paginate: 8
 collections:
@@ -24,7 +24,7 @@ collections:
     permalink: /projects/:path/
 
 url: "http://hwannnn.github.io" # the base hostname & protocol for your site
-baseurl: "/Hblog"
+baseurl: "/"
 # used to display twitter cards
 
 #fill in disqus shortname to use disqus

@@ -24,7 +24,7 @@ collections:
     permalink: /projects/:path/
 
 url: "http://hwannnn.github.io/" # the base hostname & protocol for your site
-baseurl: "/"
+baseurl: "/Hblog"
 #used to display twitter cards
 
 #fill in disqus shortname to use disqus

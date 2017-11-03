@@ -10,12 +10,12 @@ title: "Hwannnn"
 email: tprp5950@gmail.com
 #blog logo
 # blog cover
-cover: "/assets/images/blog_cover.jpg"
+cover: "Hblog/assets/images/blog_cover.jpg"
 
 name: 'Changhwan Sin'
 author: 'Changhwan Sin'
-author_image: "/assets/images/author.jpg"
-logo_image: "/assets/images/sheep_logo_black.jpg"
+author_image: "Hblog/assets/images/author.jpg"
+logo_image: "Hblog/assets/images/sheep_logo_black.jpg"
 
 paginate: 8
 collections:

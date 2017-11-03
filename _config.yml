@@ -5,15 +5,15 @@ plugins:
   - jekyll-seo-tag
 
 # Site settings
-title: "SHEPHEXD"
+title: "Hwannnn"
 
-email: shephexd@gmail.com
+email: tprp5950@gmail.com
 #blog logo
 # blog cover
 cover: "/assets/images/blog_cover.jpg"
 
-name: 'Taekyung Han'
-author: 'Taekyung Han'
+name: 'Changhwan Sin'
+author: 'Changhwan Sin'
 author_image: "/assets/images/author.jpg"
 logo_image: "/assets/images/sheep_logo_black.jpg"
 
@@ -23,12 +23,12 @@ collections:
     output: true
     permalink: /projects/:path/
 
-url: "http://shephexd.github.io/" # the base hostname & protocol for your site
-baseurl: ""
+url: "http://Hwannnn.github.io/" # the base hostname & protocol for your site
+baseurl: "/Hblog"
 #used to display twitter cards
 
 #fill in disqus shortname to use disqus
-disqus: shephexd-blog
+disqus: Hwannnn-blog
 excerpt_separator: <!--more-->
 
 # social icons and sharing options
@@ -40,9 +40,9 @@ social:
 #    share_title: ?text=
 #    share_link: "&amp;url="
 
-  - icon:   linkedin
-    url:	https://www.linkedin.com/nhome/?trk=
-    desc: Information in Linkedin
+#  - icon:   linkedin
+#    url:	https://www.linkedin.com/nhome/?trk=
+#    desc: Information in Linkedin
 
 
 #  - icon:	facebook
@@ -53,7 +53,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/shephexd
+    url:	https://github.com/Hwannnn
     desc:	Fork me on github
     share_url:
     share_title:
@@ -78,9 +78,9 @@ description: > # this means to ignore newlines until "baseurl:"
   CAN MACHINES THINK LIKE HUMANS?
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://shephexd.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  shephexd
+url: "http://Hwannnn.github.io" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  Hwannnn
 
 # Build settings
 markdown: kramdown

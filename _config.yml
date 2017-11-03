@@ -77,8 +77,8 @@ social:
 description: > # this means to ignore newlines until "baseurl:"
   CAN MACHINES THINK LIKE HUMANS?
 
-baseurl: "/Hblog" # the subpath of your site, e.g. /blog
-url: "http://hwannnn.github.io" # the base hostname & protocol for your site
+#baseurl: "/Hblog" # the subpath of your site, e.g. /blog
+#url: "http://hwannnn.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  hwannnn
 

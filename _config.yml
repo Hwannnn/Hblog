@@ -10,7 +10,7 @@ title: "Hwannnn"
 email: tprp5950@gmail.com
 #blog logo
 # blog cover
-cover: "Hblog/assets/images/blog_cover.jpg"
+cover: "assets/images/blog_cover.jpg"
 
 name: 'Changhwan Sin'
 author: 'Changhwan Sin'
@@ -24,7 +24,7 @@ collections:
     permalink: /projects/:path/
 
 url: "http://hwannnn.github.io" # the base hostname & protocol for your site
-baseurl: "/"
+baseurl: ""
 # used to display twitter cards
 
 #fill in disqus shortname to use disqus

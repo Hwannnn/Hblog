@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [mysql] UPDATE문 복수열 갱신 순서
+title: mysql UPDATE문 복수열 갱신 순서
 published: True
 categories: 
 - mysql

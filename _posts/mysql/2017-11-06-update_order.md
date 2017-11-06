@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [mysql] UPDATE문 복수열 갱신 순서
+title: mysql UPDATE문 복수열 갱신 순서
 published: True
 categories: 
 - mysql
@@ -30,19 +30,19 @@ tags:
 ## mysql 복수열 갱신 결과
 * 먼저 다음과 같은 형태의 테이블이 있다고 치자.
 ---
-no : 2 : 3
-a : 0 : 0
+no: 2: 3
+a: 0: 0
 ---
 <br/>
 
 1. UPDATE sample SET no = no + 1, a = no 의 결과  
 ---
-no : 3 : 4
-a : 3: 4
+no: 3: 4
+a: 3: 4
 ---
 
 2. UPDATE sample SET a = no, no = no + 1 의 결과  
 ---
-no : 4 : 3
-a : 5 : 4
+no: 4: 3
+a: 5: 4
 ---

@@ -38,7 +38,7 @@ tags:
 
 <br/>
 
-1. UPDATE sample SET no = no + 1, a = no 의 결과
+* UPDATE sample SET no = no + 1, a = no 의 결과  
 : no 열의 값에 1을 더하여 no 열에 저장한 뒤, 그 값이 다시 a 열에 대입!
 
 | no    | a                              |
@@ -46,7 +46,7 @@ tags:
 | 3         | 3 |
 | 4         | 4 |
 
-2. UPDATE sample SET a = no, no = no + 1 의 결과  
+* UPDATE sample SET a = no, no = no + 1 의 결과  
 : no 열의 값을 a 열에 대입한 후, no 열의 값에 1을 더하여 no 열에 저장!
 
 | no    | a                              |
@@ -65,16 +65,16 @@ tags:
 
 <br/>
 
-1. UPDATE sample SET no = no + 1, a = no 의 결과
-
+* UPDATE sample SET no = no + 1, a = no 의 결과  
+: 갱신 이전의 no 열의 값에 1을 더하여 no열에 저장하고, 다시 갱신 이전의 no 열의 값을 a 열의 값에 저장!
 
 | no    | a                              |
 | :-------- | :--------------------------------------- |
 | 3         | 2 |
 | 4         | 3 |
 
-2. UPDATE sample SET a = no, no = no + 1 의 결과
-: 
+* UPDATE sample SET a = no, no = no + 1 의 결과  
+: 갱신 이전의 no 열의 값을 a 열에 저장한 후, 다시 갱신 이전의 no 열의 값에 1을 더하고 no 열에 대입!
 
 | no    | a                              |
 | :-------- | :--------------------------------------- |

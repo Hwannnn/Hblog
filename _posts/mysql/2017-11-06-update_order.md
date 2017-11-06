@@ -1,16 +1,48 @@
 ---
 layout: post
-title: UPDATE문 복수열 갱신 순서
+title: [mysql] UPDATE문 복수열 갱신 순서
 published: True
 categories: 
 - mysql
 tags:
-- database
+- Database
 - mysql
-- oracle
 - SQL 첫걸음
 ---
 
 
 ## UPDATE 명령
-* 
+* UPDATE 명령은 이미 존재하는 행에 대해 값을 갱신하므로 이전의 값과 이후의 값의 두 가지 상태를 생각할 수 있다.
+* UPDATE sample SET no = no + 1 에서 보면 이전의 no의 값에 1을 더한 값으로 이후의 no 열에 갱신한다.
+
+
+## 복수열 갱신
+* UPDATE 명령에는 복수의 열을 갱신할 수 있는데, 갱신할 식은 SET 구에 다음과 같이 콤마(,)로 구분하여 작성한다.
+* 그런데, 아래와 같은 복수열 갱신을 하고자 할 때, 두 쿼리의 처리 순서가 다르며 결과 값에 차이가 있을까.
+1. UPDATE sample SET no1 = no1 + 1, no2 = no1
+2. UPDATE sample SET no2 = no1, no1 = no1 + 1
+<br/>
+
+* **정답은 데이터베이스 제품에 따라 다르다.**
+* 대표적인 데이터베이스을 예로들면, mysql은 서로 다른 결과 값을 가지지만 oracle은 같은 결과를 가진다.
+* 그러면 어떻게 처리되는지 본다.
+
+## mysql 복수열 갱신 결과
+* 먼저 다음과 같은 형태의 테이블이 있다고 치자.
+---
+no : 2 : 3
+a : 0 : 0
+---
+<br/>
+
+1. UPDATE sample SET no = no + 1, a = no 의 결과  
+---
+no : 3 : 4
+a : 3: 4
+---
+
+2. UPDATE sample SET a = no, no = no + 1 의 결과  
+---
+no : 4 : 3
+a : 5 : 4
+---

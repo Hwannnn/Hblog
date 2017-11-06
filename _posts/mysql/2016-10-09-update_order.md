@@ -7,6 +7,7 @@ categories:
 tags:
 - database
 - mysql
+- oracle
 - SQL 첫걸음
 ---
 

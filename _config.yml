@@ -15,7 +15,7 @@ cover: "/assets/images/blog_cover.jpg"
 name: 'Changhwan Sin'
 author: 'Changhwan Sin'
 author_image: "/assets/images/author.jpg"
-logo_image: "/assets/images/sheep_logo_black.jpg"
+logo_image: "/assets/images/beer_logo.jpeg"
 
 url: "http://hwannnn.github.io" # the base hostname & protocol for your site
 baseurl: ""

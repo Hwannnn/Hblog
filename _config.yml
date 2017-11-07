@@ -17,14 +17,15 @@ author: 'Changhwan Sin'
 author_image: "assets/images/author.jpg"
 logo_image: "assets/images/sheep_logo_black.jpg"
 
+url: "http://hwannnn.github.io" # the base hostname & protocol for your site
+baseurl: "/"
+
 paginate: 8
 collections:
   projects:
     output: true
     permalink: /projects/:path/
 
-url: "http://hwannnn.github.io" # the base hostname & protocol for your site
-baseurl: ""
 # used to display twitter cards
 
 #fill in disqus shortname to use disqus
@@ -33,24 +34,9 @@ excerpt_separator: <!--more-->
 
 # social icons and sharing options
 social:
-#  - icon:	twitter
-#    url:	https://twitter.com/furorluna
-#    desc: Follow me on twitter
-#    share_url: http://twitter.com/share
-#    share_title: ?text=
-#    share_link: "&amp;url="
-
 #  - icon:   linkedin
 #    url:	https://www.linkedin.com/nhome/?trk=
 #    desc: Information in Linkedin
-
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/Hwannnn
@@ -58,14 +44,6 @@ social:
     share_url:
     share_title:
     share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
-
 
 # Welcome to Jekyll!
 #
@@ -77,8 +55,7 @@ social:
 description: > # this means to ignore newlines until "baseurl:"
   CAN MACHINES THINK LIKE HUMANS?
 
-#baseurl: "/Hblog" # the subpath of your site, e.g. /blog
-#url: "http://hwannnn.github.io" # the base hostname & protocol for your site
+
 # twitter_username: jekyllrb
 github_username:  hwannnn
 

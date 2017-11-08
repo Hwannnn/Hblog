@@ -1,3 +1,16 @@
+---
+layout: post
+title: SQL GROUP BY 
+published: True
+categories: 
+- mysql
+tags:
+- database
+- mysql
+- oracle
+- SQL 첫걸음
+---
+
 GROUP BY에 대해..
 
 ## 그룹화 GROUP BY 

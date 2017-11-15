@@ -3,7 +3,7 @@ layout: post
 title: SQL 집계함수
 published: True
 categories: 
-- mysql
+- sql
 tags:
 - database
 - mysql

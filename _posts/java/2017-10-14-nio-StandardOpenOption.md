@@ -23,7 +23,7 @@ tags:
 * Files.write를 하기위해 사용할 수 있는 메소드는 다음과 같이 3가지가 있다.
 * 파라미터 중 OpenOption... options를 보면 여러 개 옵션을 줄 수도 있는 것을 볼 수 있다.
 
-![](/assets/post_images/java/nio_document_write.png)
+![](/assets/post_images/java/nio_document_write.PNG)
 
 
 
@@ -51,5 +51,5 @@ tags:
 * 이처럼 StandardOpenOption 옵션을 주지 않으면, 아래 그림과 같이 CREATE, TRUNCATE_EXISTING 옵션이 주어지도록 되어있다.
   * TRUNCATE_EXISTING : 파일을 0바이트로 잘라낸다. 존재하는 파일을 지운다
 
-![](/assets/post_images/java/nio_newOutStream.png)
+![](/assets/post_images/java/nio_newOutStream.PNG)
 

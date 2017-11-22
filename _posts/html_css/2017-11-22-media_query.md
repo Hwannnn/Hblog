@@ -28,6 +28,7 @@ tags:
 * 처음 PC 화면을 기준으로 시작해서 Pad화면과  mobile 화면 순서로 맞춰가며 미디어 쿼리를 작성한다.
 * 즉, 큰 것부터해서 작은 것을 디자인해나가는 것이다.
 * 다음은 테스트 실습 코드이다. 궁금하면 저장해서 브라우저에서 어떤 결과가 나오는지 알 수 있다.
+<a href="/test_html/media_query_min.html">media_query_test</a>
 
 ```html
 <!doctype html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Media query test</title>
+	<style>
+		body {
+			background-color: black;	
+		}
+
+		.header {
+			margin: 10px auto;
+			width: 1024px;
+			background-color: red;
+		}
+
+		.container {
+			margin: 10px auto;
+			width: 1024px;
+			background-color: orange;
+		}
+			.first-aside {
+				background-color: green;
+			}
+
+			.content {
+				background-color: blue;
+			}
+
+			.second-aside {
+				background-color: navy;
+			}
+
+				.section {
+					background-color: gray;
+				}
+
+		.footer {
+			margin: 10px auto;
+			width: 1024px;
+			background-color: yellow;
+		}
+
+
+		@media(min-width: 780px) {
+			.container {
+				overflow: hidden;
+			}
+
+			.content {
+				width: 60%;
+				float: left;
+			}
+
+			.second-aside {
+				width: 40%;
+				float: left;
+			}
+		}
+
+		@media(min-width: 1024px) {
+			.container {
+				overflow: hidden;
+			}
+
+			.first-aside {
+				width: 30%;
+				float: left;
+			}
+
+			.content {
+				width: 40%;	
+				float: left;		
+			}
+
+			.second-aside {
+				width: 30%;
+				float: left;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<h1>Header</h1>
+	</div>
+
+	<div class="container">
+		<div class="first-aside">
+			<h2>Hellow World</h2>
+		</div>
+
+		<div class="content">
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+		</div>
+
+		<div class="second-aside">
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+			<div class="section">
+				<h3>Section</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h2>Footer</h2>
+	</div>
+</body>
+</html>
+
+
+
+

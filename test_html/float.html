@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Media query test</title>
+	<style>
+		body {
+			background-color: black;	
+		}
+
+		.header {
+			margin: 10px auto;
+			width: 1024px;
+			background-color: red;
+		}
+
+		.container {
+			margin: 10px auto;
+			width: 1024px;
+			background-color: orange;		
+		}
+
+			.thumnail {
+				margin: 10px 0;
+				background-color: green;
+			}
+
+			.thumnail:after {
+				display: block;
+				clear: both;
+				content: '';
+			}
+
+			.thumnail-hidden {
+				margin: 10px 0;
+				overflow: hidden;
+				background-color: green;
+			}
+
+			.thumnail-img img {
+				width: 140px;
+			}
+
+		.footer {
+			margin: 10px auto;
+			width: 1024px;
+			background-color: yellow;
+		}
+
+		.left {
+			float: left;
+		}
+
+		.right {
+			float: right;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<h1>Header</h1>
+	</div>
+
+	<div class="container">
+		<div class="thumnail-hidden">
+			<div class="thumnail-img left">
+				<img src="./brown.PNG" alt="No Image"/>
+			</div>
+
+			<div class="thumnail-desc left">
+				<strong>float left test1</strong>
+				<p>가나다라마바사아자차카타파하</p>
+			</div>
+		</div>
+
+		<div class="thumnail-hidden">
+			<div class="thumnail-img right">
+				<img src="./brown.PNG" alt="No Image"/>
+			</div>
+
+			<div class="thumnail-desc right">
+				<strong>float right test2</strong>
+				<p>가나다라마바사아자차카타파하</p>
+			</div>
+		</div>
+
+		<div class="thumnail">
+			<div class="thumnail-img left">
+				<img src="./brown.PNG" alt="No Image"/>
+			</div>
+
+			<div class="thumnail-desc left">
+				<strong>float left test3</strong>
+				<p>가나다라마바사아자차카타파하</p>
+			</div>
+		</div>
+
+		<div class="thumnail">
+			<div class="thumnail-img right">
+				<img src="./brown.PNG" alt="No Image"/>
+			</div>
+
+			<div class="thumnail-desc right">
+				<strong>float right test4</strong>
+				<p>가나다라마바사아자차카타파하</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<h2>Footer</h2>
+	</div>
+</body>
+</html>
+
+
+
+

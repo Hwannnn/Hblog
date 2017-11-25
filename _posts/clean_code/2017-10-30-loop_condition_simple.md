@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 루프와 논리 단순화하기.
+title: 읽기 쉽게 흐름제어 만들기
 published: True
 categories: 
 - clean_code
